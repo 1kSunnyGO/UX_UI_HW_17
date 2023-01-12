@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.inline-block {
+    display: inline-block;vertical-align: top;
+}
+
+li {
+    font-family: Oswald;
+    padding: 10px;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;;
+    text-align: center;
+}
+
+nav {
+    /*background-color: aqua;*/
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+.heroImg {
+    background-color: aliceblue;
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #373738;
+    padding: 20px;
+}
+
+footer li {
+    color: white;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.portrait {
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
