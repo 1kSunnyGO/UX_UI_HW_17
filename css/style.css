@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .inline-block {
-    display: inline-flex;
+    display: inline-block;
     vertical-align: top;
 }
 
@@ -12,19 +12,29 @@ li {
 }
 
 .navigation {
-    background-color: #373738;
+    width: 100%;
+    display: inline-flex;
+    /*background-color: #373738;*/
 }
 
 .logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+    /*display: flex;*/
+    padding: 10px;
 }
 
 nav {
     width: 73%;
     padding: 1%;
 }
+
+.navContent {
+    width: 100%;
+    background-color: rgb(5, 1, 1);
+}
+.navContent ul {
+    float: left;
+}
+
 
 ul {
     width: 50%;
@@ -44,6 +54,10 @@ li {
 .content {
     width: 500px;
     margin: 0 auto;
+}
+
+.footerContent {
+    justify-content: center;
 }
 
 footer {
