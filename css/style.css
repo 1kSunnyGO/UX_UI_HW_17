@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .inline-block {
-    display: inline-block;vertical-align: top;
+    display: inline-flex;
+    vertical-align: top;
 }
 
 li {
@@ -16,7 +17,7 @@ li {
 
 .logo {
     width: 23%;
-    padding: 1%;;
+    padding: 1%;
     text-align: center;
 }
 
